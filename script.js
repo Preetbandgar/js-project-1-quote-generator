@@ -5,11 +5,11 @@ const twitterBtn = document.getElementById("twitter");
 const newQuote = document.getElementById("new-quote");
 const loader = document.getElementById("loader");
 
-let apiQuotes = [];
+let apiQuotes = [];@@@@
 
 //Loding
 function loading(isTrue) {
-  loader.hidden = !isTrue;
+  loader.hidden = !isTrue;###
   quoteContainer.hidden = isTrue;
 }
 
